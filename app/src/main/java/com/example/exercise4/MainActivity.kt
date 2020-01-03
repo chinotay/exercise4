@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         txtDOB.setOnClickListener (){
+            ///
             val c:Calendar = Calendar.getInstance();
             val currentDay = c.get(Calendar.DAY_OF_MONTH)
             val currentMonth = c.get(Calendar.MONTH)
